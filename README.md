@@ -1,3 +1,12 @@
+ This website is build by using React JS .
+ Here I have achieved the routing by using react.
+
+
+ ![Screenshot (438)](https://github.com/swathimuneeswaran/Routing-Task/assets/113039047/424eb94c-a6dc-4c50-bfbf-fa899f61f550)
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

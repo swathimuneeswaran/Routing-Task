@@ -1,0 +1,106 @@
+body
+{
+    padding-bottom: 100px;
+}
+
+.nav1
+{
+    border:2px solid black;
+    width: 100%;
+    height:50px;
+    margin-top:4px;
+    background-color: rgb(84, 67, 67);
+    color:aquamarine;
+    padding: 15px;
+    
+}
+.links
+{
+    color:aquamarine;
+    text-decoration:overline;
+   
+}
+.links:hover{
+      
+    color:chartreuse;
+    text-decoration: 2px chartreuse underline;
+    
+
+}
+
+.links:active
+{
+    color:blue
+}
+
+.card
+{
+    margin-left:50px;
+    margin-top:60px;
+    border:1px solid gray;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding:15px;
+    transition: background-color 0.3s ease;
+}
+
+.card:hover{
+
+    background-color: rgb(218, 241, 249); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.col-3
+{
+    margin-left:50px;
+    margin-bottom: 50px !important;
+
+}
+
+.img
+{
+    border:1px solid gray
+}
+
+.box
+{
+    margin-top:50px;
+    background-color: rgb(247, 242, 236);
+    height:290px;
+    padding:40px;
+}
+
+.box:hover{
+    background-color:lightgray;
+}
+.ibox
+{
+    margin-top: 30px;
+}
+
+.guv
+{
+    width:100%;
+    height: 290px;
+    margin-top:40px;
+    border:2px solid lightblue;
+    
+}
+
+
+
+.my-navbar {
+    padding: 10px; 
+  
+  
+    @media (max-width: 767px) {
+      .nav-item {
+        margin-bottom: 10px; 
+      }
+  
+      .links {
+        display: block; 
+        text-align: center; 
+      }
+    }
+  }
+  
